@@ -8,5 +8,6 @@ class SpringRestCrudApplicationTests {
 
 	@Test
 	void contextLoads() {
+	
 	}
 }
