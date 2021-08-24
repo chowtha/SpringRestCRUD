@@ -29,7 +29,6 @@ public class UserController {
 
 	@Autowired
 	private UserRepository userRepository;
-
 	@Autowired
 	private userService service;
 
@@ -38,7 +37,6 @@ public class UserController {
 		service.saveUser(user);
 		return user;
 	}
-
 
 	@GetMapping("/users")
 	public List<User> getAllUsers() {
